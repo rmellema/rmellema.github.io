@@ -2,6 +2,7 @@
 title:  "Welcome to Jekyll!"
 date:   2014-08-17 14:46:21
 categories: jekyll update
+tags: welcome hello
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
