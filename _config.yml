@@ -11,6 +11,10 @@ github_username:  rmellema
 markdown: kramdown
 permalink: pretty
 
+gems:
+  - jekyll-sitemap
+  - jekyll-mentions
+
 defaults:
   -
     scope:
