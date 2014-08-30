@@ -3,8 +3,31 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Hi, my name is **René Mellema** and I'm a student at the 
+[University of Groningen][RUG], following the [BSc Artificial Intelligence]
+[RUGAI] programme. I've got an interest in programming, cognitive psychology
+and natural language processing.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+On this blog I will write about things that I find fascinating or that keep 
+me up at night. It will probably also include posts about the 
+[projects][projects] that I work on.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I have experience with [Lua][], [Python][], [R][], [C][] and [Java][].
+Currently, I'm trying to learn [Common Lisp][CL] for the heck of it. 
+
+You can find me on [github][] or [linkedin][]. I'm also on [twitter][], but
+I rarely tweet. The easiest way to reach is probably using [email][].
+
+[RUG]: http://rug.nl/
+[RUGAI]: http://www.rug.nl/bachelors/artificial-intelligence/
+[projects]: /projects/
+[Lua]: http://www.lua.org
+[Python]: https://www.python.org
+[R]: http://www.r-project.org
+[C]: https://en.wikipedia.org/wiki/C_(programming_language)
+[Java]: https://en.wikipedia.org/wiki/Java_(programming_language)
+[CL]: http://common-lisp.net
+[github]: https://github.com/{{ site.github_username }}
+[linkedin]: https://www.linkedin.com/
+[twitter]: https://twitter.com/{{ site.twitter_username }}
+[email]: mailto:{{ site.email }}
