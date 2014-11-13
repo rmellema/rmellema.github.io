@@ -12,8 +12,8 @@ On this blog I will write about things that I find fascinating or that keep
 me up at night. It will probably also include posts about the 
 [projects][projects] that I work on.
 
-I have experience with [Lua][], [Python][], [R][], [C][] and [Java][].
-Currently, I'm trying to learn [Common Lisp][CL] for the heck of it. 
+I have experience with [Lua][], [Python][], [R][], [C][], [Java][] and [Matlab][]/[Octave][].
+Currently, I'm trying to learn [Common Lisp][CL], just for fun. 
 
 You can find me on [github][] or [linkedin][]. I'm also on [twitter][], but
 I rarely tweet. The easiest way to reach is probably using [email][].
@@ -26,6 +26,8 @@ I rarely tweet. The easiest way to reach is probably using [email][].
 [R]: http://www.r-project.org
 [C]: https://en.wikipedia.org/wiki/C_(programming_language)
 [Java]: https://en.wikipedia.org/wiki/Java_(programming_language)
+[Matlab]: http://mathworks.com/products/matlab/
+[Octave]: http://www.gnu.org/software/octave/index.html
 [CL]: http://common-lisp.net
 [github]: https://github.com/{{ site.github_username }}
 [linkedin]: https://www.linkedin.com/
