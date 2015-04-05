@@ -13,4 +13,19 @@ layout: default
   {{ content }}
   </article>
 
+  <nav class="site-nav">
+    <div class="trigger">
+      {% if page.next %}
+        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}">&laquo;Next post</a>
+      {% else %}
+        <span>&laquo;Next post</a>
+      {% endif %}
+
+      {% if page.previous %}
+      <a href="{{page.previous.url | prepend: site.baseurl | replace: '//', '/' }}">Previous post &raquo;</a>
+      {% else %}
+        <span>Previous post &raquo;</span>
+      {% endif %}
+    </div>
+  </nav>
 </div>
