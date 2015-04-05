@@ -1,0 +1,40 @@
+---
+layout: page
+title: Blog
+---
+This is a listing of all the blog posts I uploaded to this site. You are currently on page number {{ paginator.page }} of the paginator.
+
+<ul class="posts">
+  {% for post in paginator.posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+        {{ post.title }}
+      </a>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+
+{% if paginator.total_pages > 1 %}
+  <nav class="site-nav">
+    <div class="trigger">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+          &laquo;Previous
+        </a>
+      {% else %}
+        <span>&laquo;Previous</span>
+      {% endif %}
+
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">
+          Next &raquo;
+        </a>
+      {% else %}
+        <span>Next &raquo;</span>
+      {% endif %}
+    </div>
+  </nav>
+{% endif %}
+
