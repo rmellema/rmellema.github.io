@@ -1,0 +1,7 @@
+- name: COLua
+  short: "COLua is a module for Lua 5.2 that adds support for Class-based Object Oriented Programming"
+  link: "https://github.com/rmellema/COLua"
+
+- name: Scalacalc
+  short: "Scalacalc is a small calculator written in Scala"
+  link: "https://github.com/rmellema/Scalacalc"

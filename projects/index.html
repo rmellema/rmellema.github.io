@@ -1,0 +1,17 @@
+---
+title: Projects
+permalink: /projects/
+---
+
+This is a list with all my projects and a short description. And maybe a longer description if I can get around to writing one.
+
+<hr />
+
+<ul class="posts">
+  {% for project in site.data.projects %}
+    <li>
+      <a href="{{ project.link }}"><h1>{{ project.name }}</h1></a>
+      {{ project.short }}
+    </li>
+  {% endfor %}
+</ul>
