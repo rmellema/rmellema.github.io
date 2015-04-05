@@ -19,6 +19,11 @@ defaults:
   -
     scope:
       path: ""
+    values:
+      author: "René"
+  -
+    scope:
+      path: ""
       type: "post"
     values:
       layout: "post"
