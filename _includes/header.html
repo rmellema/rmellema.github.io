@@ -17,8 +17,8 @@
         </svg>
       </a>
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.title and page.title != "Not found" %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+        {% for page in site.data.menu %}
+          <a class="page-link" href="{{ page.link | prepend: site.baseurl }}">{{ page.name }}</a>
         {% endfor %}
       </div>
     </nav>
