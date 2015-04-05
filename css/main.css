@@ -45,6 +45,14 @@ a:visited { color: #205caa; }
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
   background-color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.site-header-buffer { //Take the position of the header
+  min-height: 62px;
+  height: 62px;
+  width: 100%;
 }
 
 .site-title,
